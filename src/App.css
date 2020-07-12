@@ -31,20 +31,25 @@
 .container .logo {
     position: absolute;
      top: 2%;
-    left: 10%;
+    left: 15%;
     margin : auto;
 }
 
 .container .background_image {
-    width: 100%;
-    height: auto;
-    margin : auto;
+      /* Full height */
+  width: 100%; 
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container .btn_login {
     position: absolute;
     top: 2%;
-    left: 90%;
+    left: 85%;
 }
 
 @keyframes App-logo-spin {
